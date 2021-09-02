@@ -12,7 +12,7 @@ yarn install
 yarn start && yarn start-server
 ```
 
-# React Exercise using who is my representative API
+## React Exercise using who is my representative API
 For this programming test you are tasked with creating an interface around 
 the open API located at http://whoismyrepresentative.com/api. 
 However, to get around CORs limitation, we are providing an extremely simple node application 
@@ -45,6 +45,6 @@ Priorities:
 
 If you have any questions, please let us know. 
 
-# find-rep-api
+## find-rep-api
 Super simple api to get results from http://whoismyrepresentative.com/api
 
