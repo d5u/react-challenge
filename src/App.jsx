@@ -34,14 +34,13 @@ const App = () => {
     }
   }
 
-
   return (
     <>
       <header>
         <h1>Who Is My Representative?</h1>
       </header>
       <main>
-        <div className="content">
+        <div className='content'>
           <Search fetchData={fetchData} />
           <Results representatives={representatives} senators={senators} />
         </div>
