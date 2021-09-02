@@ -9,7 +9,8 @@ node.js
 ```
 git clone
 yarn install
-yarn start && yarn start-server
+yarn start 
+yarn start-server
 ```
 
 ## React Exercise using who is my representative API
