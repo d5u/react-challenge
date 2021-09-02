@@ -8,6 +8,7 @@ const App = () => {
   let [representatives, setRepresentatives] = useState([]);
   let [senators, setSenators] = useState([]);
 
+
   const fetchData = (state, type) => {
     switch (type) {
       case 'rep':

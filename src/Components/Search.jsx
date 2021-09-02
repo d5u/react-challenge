@@ -11,10 +11,7 @@ const Search = ({ fetchData }) => {
       <select value={state} onChange={e => setState(e.target.value)}>
         {
           states.map(state => 
-            <option
-              key={state.abbreviation}
-              value={state.abbreviation}
-            >
+            <option key={state.abbreviation} value={state.abbreviation}>
               {state.name}
             </option>)
         }
