@@ -4,6 +4,8 @@ import axios from 'axios';
 import Search from '../src/Components/Search';
 import Results from '../src/Components/Results';
 
+import './styles/main.css';
+
 const App = () => {
   let [representatives, setRepresentatives] = useState([]);
   let [senators, setSenators] = useState([]);
@@ -39,8 +41,10 @@ const App = () => {
         <h1>Who Is My Representative?</h1>
       </header>
       <main>
-        <Search fetchData={fetchData} />
-        <Results representatives={representatives} senators={senators} />
+        <div className="content">
+          <Search fetchData={fetchData} />
+          <Results representatives={representatives} senators={senators} />
+        </div>
       </main>
     </>
   )

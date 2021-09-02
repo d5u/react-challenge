@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    margin: 0;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f1f1fd;
+}
+
+header {
+    background-color: #bdb7b7;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.query-select-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.query-select-container .query:not(:first-child) {
+    padding-left: 15px;
+}
+
+.query {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.query select {
+    margin-left: 5px;
+}
+
+.btn-search {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn-search button {
+    padding: 5px;
+}
+
+.results-container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.results-container h2 {
+    text-align: center;
+}
+
+.single-result {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px auto;
+    width: 100%;
+}
